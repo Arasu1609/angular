@@ -1,0 +1,25 @@
+h3 {
+  text-align: center;
+  margin-top: 2cm;
+  color: rgb(253, 6, 55);
+}
+div {
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 390px;
+  width: 300px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding: 50px;
+  background-color: gainsboro;
+}
+button {
+  background-color: rgb(55, 238, 9);
+  border-radius: 5px;
+  color: white;
+  border-color: gray;
+}
+.net {
+  margin-right: 50px;
+}
+

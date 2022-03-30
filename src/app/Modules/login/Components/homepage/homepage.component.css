@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+
+}
+.column{
+    float: left;
+    width:50%;
+    padding:10px;
+    height:300px;
+    padding-left: 100px;
+ /* background-color: darkgray; */
+}
+.column1{
+    background-color: rgb(236, 233, 233);
+    
+}
+.row:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+.name{
+    margin-left: 60px;
+}
+.Address{
+        margin-left: 60px;
+
+}
+.City{
+        margin-left: 60px;
+
+}
+.PinCode{
+        margin-left: 60px;
+
+}
+.E-mail{
+        margin-left: 60px;
+
+}
+.phone{
+        margin-left: 60px;
+}
+#tb1{
+margin-left: 20px;
+}
+#tb2{
+margin-left: 46px;
+}
+#tb3{
+    margin-left: 17px;
+}
+#tb4{
+    margin-left: 30px;
+}
+#tb5{
+    margin-left: 33px;
+}
+#tb6{
+    margin-left: 35px;
+}
+.log{
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 80px;
+    background-color: #ee7605;
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#tbi{
+    margin-top: -10px;
+    height: 180px;
+    width:230px
+}
+.column2{
+    margin: 10px;
+}

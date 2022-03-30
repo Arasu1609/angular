@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="column">
+    <div class="column1">
+      <h3>Input Form</h3>
+      <div class="name">
+        <label><b>Name</b></label>
+        <input type="text" id="tb6" [(ngModel)]="fname" /><br />
+      </div>
+      <div class="Address">
+        <label><b>Address</b></label>
+        <input type="text" id="tb1" [(ngModel)]="faddress"/><br />
+      </div>
+      <div class="City">
+        <label><b>City</b></label> <input type="text" id="tb2" [(ngModel)]="fcity" /><br />
+      </div>
+      <div class="PinCode">
+        <label><b>PinCode</b></label> <input type="text" id="tb3" [(ngModel)]="fpin"/><br />
+      </div>
+      <div class="E-mail">
+        <label><b>E-mail</b></label> <input type="text" id="tb4" [(ngModel)]="femail" /><br />
+      </div>
+      <div class="phone">
+        <label><b>Phone</b></label> <input type="text" id="tb5" [(ngModel)]="fphone"/><br />
+      </div>
+
+      <button type="submit" class="log" (click)="onClick()">Login</button>
+    </div>
+  </div>
+  <div class="column">
+  <div class="column2">
+    <h3><strong>Ouput Form</strong></h3>
+    <p *ngIf="condition;">Name:{{ name }}</p>
+    <p *ngIf="condition;">Address:{{ address }}</p>
+     <p *ngIf="condition;">City:{{ city }}</p>
+      <p *ngIf="condition;">Pin-Code:{{ pin }}</p>
+       <p *ngIf="condition;">E-mail:{{ email }}</p>
+        <p *ngIf="condition;">Phone:{{ phone }}</p>
+
+  </div>
+</div>
+</div>
